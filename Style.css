@@ -1,0 +1,150 @@
+/* *{
+    border: 1px solid white;
+} */
+body{
+    background: url(Gym_Background.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+}
+img {
+    width: 100px;
+    height: 80px;
+}
+.heading  div{
+    float: left;
+    margin: 0px;
+}
+.heading{
+    background-color: rgb(236, 236, 236);
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.heading .title{
+    margin-left: 30px;
+    letter-spacing:15px;
+}
+.heading h1{
+    font-family: 'Piedra', cursive;
+}
+
+/* styling navbar */
+nav{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+nav ul{
+    list-style: none;
+    background-color: gray;
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;    
+}
+nav ul li:hover{
+    color: white;
+    background-color: black;
+}
+nav ul div{
+    float: right;  
+    display: inline-block;
+}
+nav ul div input{
+    max-width: 6rem;
+    margin: 18px 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 17px;
+}
+
+/* Other Body Stylling */
+
+p{
+    width: 60%;
+    padding-top: 40px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+.article_heading{
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 230px;
+    border-radius: 15px;
+}
+
+
+/* styling form */
+.form{
+    max-width: 25rem;
+    margin: 60px auto;
+    padding-bottom: 30px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.form input, .form h3, .form div{
+    margin: 3px 60px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.form h1{
+    margin: 23px auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 170px;
+    border-radius: 15px;
+}
+button{
+    width: 85px;
+    height: 30px;
+    margin-left: 82px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li{
+        font-size: 0.8rem;
+        padding: 13px;
+    }
+    nav ul div input {
+        padding-left: 12px;
+        margin: 10px 15px;
+        font-size: 0.7rem;
+    }
+    .heading .title {
+        font-size: 0.76rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul div input {
+        padding-left: 7px;
+        max-width: 2rem;
+        font-size: 0.5rem;
+        margin: 5px 8px;
+    }
+    nav ul li{
+        font-size: 0.8rem;
+        padding: 7px;
+    }
+    nav {
+        padding-left: -3rem;
+        margin-left: -2rem;
+    }
+}
+
